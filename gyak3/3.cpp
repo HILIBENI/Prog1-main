@@ -7,7 +7,7 @@ void f1() {
 	int n3 = 2;
 	int n4 = 3;
 
-	int* p1 = &n1;
+	int* p1 = &n1; //int* creates a pointer to the variable's memory adress. access the actual value using &.
 	int* p2 = &n2;
 	int* p3 = &n3;
 	int* p4 = &n4;
@@ -21,7 +21,7 @@ void f2() {
 	char C[15];
 	char* pc = C;
 
-	int arlen = sizeof(C) / sizeof(char);
+	int arlen = sizeof(C) / sizeof(char); //sizeof() returns size in bytes, so we divide by the size of each element to get total length
 	
 	for (int i = 0; i < arlen - 1; i++) {
 		cout << i + 1 << ". elem:";
@@ -41,7 +41,7 @@ void f3() {
 		int n2 = 0;
 		tp = new int[input];
 		for (int i = 0; i <= input - 1; i++) {
-			tp[i] = (rand() % 150) - 30;
+			tp[i] = (rand() % 150) - 30;//random number between -30 and 120
 		}
 		tp2 = new float[input/3];//creates array from third of user input
 		for (int i = 1; i < input; i+= 3) {
