@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyak3", "gyak3\gyak3.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyak2", "gyak2\Prog1_Project.vcxproj", "{4A7CC5C6-4367-4202-9A3F-973F5A12A292}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maxmem", "maxmem\maxmem.vcxproj", "{07233EAB-B417-47B3-B5DF-41E8694C664D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{4A7CC5C6-4367-4202-9A3F-973F5A12A292}.Release|x64.Build.0 = Release|x64
 		{4A7CC5C6-4367-4202-9A3F-973F5A12A292}.Release|x86.ActiveCfg = Release|Win32
 		{4A7CC5C6-4367-4202-9A3F-973F5A12A292}.Release|x86.Build.0 = Release|Win32
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Debug|x64.ActiveCfg = Debug|x64
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Debug|x64.Build.0 = Debug|x64
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Debug|x86.ActiveCfg = Debug|Win32
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Debug|x86.Build.0 = Debug|Win32
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Release|x64.ActiveCfg = Release|x64
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Release|x64.Build.0 = Release|x64
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Release|x86.ActiveCfg = Release|Win32
+		{07233EAB-B417-47B3-B5DF-41E8694C664D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
