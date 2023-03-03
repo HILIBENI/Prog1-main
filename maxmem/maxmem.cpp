@@ -3,10 +3,8 @@
 #include <iostream>
 
 int main() {
-	int i = 0;
 	while (1) {
-		i++;
-		int* ptr = new int[i*RAND_MAX];
+		int* ptr = (int*)malloc(INT_MAX);
 	}
 	return 0;
 }
