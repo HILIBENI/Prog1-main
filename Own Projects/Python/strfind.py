@@ -1,14 +1,15 @@
-import math
+
 import random
 import time
-def main():
-    iterations = 5000000 #number of times to generate
-    step = 1000          #range of random number. The higher the num, the more variance in the length of the result, but also more efficient.
 
+def main(i):
+    i += curve
+    #number of times to generate
+    step = 10000
+    #range of random number. The higher the num, the more variance in the length of the result, but also more efficient.
     cnum = convert()
-    rnum = numgen(iterations,step)
-    fstr(cnum,rnum)  
-
+    rnum = numgen(i,step)
+    fstr(cnum,rnum,i)  
 #---------------------------------------------------------
 
 def numgen(rl,randstep):
@@ -23,33 +24,29 @@ def numgen(rl,randstep):
 
 
 def convert():
-    cstart = time.time()
     numl = ''
     for i in strf:
           numl += str(ord(i))
-    print(f"Translated \"{strf}\" to {numl}.")
-    cend = time.time()
-    print(f"String conversion took {round((cend-cstart),3)} seconds")
     return numl
 
-def fstr(substr, fullstr):
-    fstart = time.time()
+def fstr(substr, fullstr,i):
     strindex = str(fullstr).find(str(substr))
-    fend = time.time()
-    try:
-        if strindex == -1:
-            print(f"your number sequence was not found within the specified larger set, trying again. Total number of tries so far: {i}")
-            main()
-            i += 1
-        else:
-            print(f"your specified number sequence starts at: {strindex}-")
-    finally:
-            print(f"Looking for the number took {round((fend-fstart),3)} seconds")
+    if strindex == -1:
+        print(f"your number sequence was not found within the specified larger set, trying again.")
+        main(i)
+    else:
+        end = time.time()
+        print(f"your specified number sequence starts at: {strindex} and took {round((end-start),3)} seconds to find")
+            
 
 
 
 if __name__ == "__main__":
+    start = time.time()
     strf = str(input("the string you want to find: "))
-    i = 0
-    main()
+    iterations = 5000000
+    curve = 100000
+    print(f"Translated \"{strf}\" to {convert()}.")
+    main(iterations)
+
     
