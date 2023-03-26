@@ -89,4 +89,11 @@ int main() {
 	pc(c);
 
 	return 0;
+	int a = 1;
+	int b = 2;
+	maxnum(a, b);
+
+}
+int maxnum(int a, int b) {
+	return a > b ? a : b; //if (a > b then a else b)
 }
