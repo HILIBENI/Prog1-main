@@ -1,0 +1,5 @@
+200 Horsepower
+2 Color
+4 Carrying Capacity(People)
+50000 Amount Made
+2018 Year first made
