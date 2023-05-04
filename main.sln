@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyak9", "gyak9\gyak9.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyak10", "gyak10\gyak10.vcxproj", "{AF8A09EB-B6D6-45F2-9A7B-F11011B62435}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zhgyak", "zhgyakű\zhgyakű.vcxproj", "{49C15A16-EC54-4977-A954-B8E0ACFEB31F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{AF8A09EB-B6D6-45F2-9A7B-F11011B62435}.Release|x64.Build.0 = Release|x64
 		{AF8A09EB-B6D6-45F2-9A7B-F11011B62435}.Release|x86.ActiveCfg = Release|Win32
 		{AF8A09EB-B6D6-45F2-9A7B-F11011B62435}.Release|x86.Build.0 = Release|Win32
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Debug|x64.ActiveCfg = Debug|x64
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Debug|x64.Build.0 = Debug|x64
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Debug|x86.ActiveCfg = Debug|Win32
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Debug|x86.Build.0 = Debug|Win32
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Release|x64.ActiveCfg = Release|x64
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Release|x64.Build.0 = Release|x64
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Release|x86.ActiveCfg = Release|Win32
+		{49C15A16-EC54-4977-A954-B8E0ACFEB31F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
