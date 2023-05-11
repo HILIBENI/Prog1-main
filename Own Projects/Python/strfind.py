@@ -3,6 +3,9 @@ import random
 import time
 
 def main(i):
+    with open("rand.txt", "w") as f:
+        f.write("")
+        f.close()
     i += curve
     #number of times to generate
     step = 10000
@@ -19,6 +22,10 @@ def numgen(rl,randstep):
          rstr += str(random.randrange(randstep)) #generate random number and convert to string
     genend = time.time()
     print(f"Generating {round((len(rstr)/1000000),2)}M numbers took {round((genend-genstart),3)} seconds")
+    with open("rand.txt","a") as file:
+        file.write(rstr)
+        file.close()
+
     return rstr
 
 
